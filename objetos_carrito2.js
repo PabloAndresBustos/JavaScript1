@@ -1,13 +1,13 @@
 /* 3.2) Agregar un metodo a la clase que agregue un producto al carrito y actualice el montoTotal
 agregarProducto(nombre, precio, unidades) {
-    // Completar aca...
+    Completar aca...
 }
 
 
 Ej:
 agregarProducto("Azucar", 5, 2);
 
-//Resultado esperado
+Resultado esperado
 carrito = {
     montoTotal: 20,
     productos: ["Leche", "Azucar"]
