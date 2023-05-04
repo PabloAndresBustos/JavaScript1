@@ -18,7 +18,7 @@ class CarroModificado {
         const producto_encontrado = this.productos.find(producto => producto.nombre === nombre)
         /* Si el prudcto se encontro enviamos el mensaje en consola caso contrario lo agregamos al carrito. */
         if (producto_encontrado) {
-            console.log("el producto: " + nombre + " ya existe con la cantidad de: " + producto_encontrado.unidades);
+            console.log(`el producto ${nombre} ya existe con la cantidad de: ${producto_encontrado.unidades}`);
         } else {
             this.productos.push({ nombre, unidades });
             this.montoTotal += unidades * precio;
@@ -26,6 +26,8 @@ class CarroModificado {
     }
 
 }
+
+
 
 /* Pruebas realizadas incluso con repiticiones de elementos. */
 
