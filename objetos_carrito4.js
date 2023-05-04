@@ -1,7 +1,5 @@
 /* 3.3)Agregar al ejercicio anterior una validación para no permitir duplicados e imprimir un mensaje si el item ya existe “ya existe xxx con yyy unidades” */
 
-/* Se podria usar find o includes, pero como son cosas no vistas aun, realizamos la actividad solo con lo visto. */
-
 class CarroModificado {
     montoTotal;
     productos = [];
