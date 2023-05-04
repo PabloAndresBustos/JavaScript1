@@ -11,22 +11,15 @@ class CarroModificado {
         this.productos.push({ nombre, unidades });
     }
 
-
     adicionarProducto(nombre, precio, unidades) {
-        /* Genero una variable que me servira para permitir el agregado o no del nuevo elemento */
-        let existe = false;
-        /* Genero un loop for para verificar si el nombre del producto ya esta en la lista, si el producto está devolvera el mensa
-        solicitado por el ejercicio */
-        for (let x = 0; x < this.productos.length; x++) {
-            if (nombre === this.productos[x].nombre) {
-                existe = true;
-                console.log("el producto: " + nombre + " ya existe con la cantidad de: " + this.productos[x].unidades);
-                break;
-            }
-        }
-        /* Si el la variable existe es igual a true, quiere decir que el for no encotro coincidencias y el producto puede ser 
-        agregado actualizando el monto */
-        if (!existe) {
+        /* El codigo de objetos_carrito3.js se puede limpiar de esta manera pero con cosas no vistas en clase */
+        /* Generamos una constante donde almacenamos el resultado de find que busca el producto en mi lista de objetos. 
+        Lo que nos retorna el producto encotrado */
+        const producto_encontrado = this.productos.find(producto => producto.nombre === nombre)
+        /* Si el prudcto se encontro enviamos el mensaje en consola caso contrario lo agregamos al carrito. */
+        if (producto_encontrado) {
+            console.log("el producto: " + nombre + " ya existe con la cantidad de: " + producto_encontrado.unidades);
+        } else {
             this.productos.push({ nombre, unidades });
             this.montoTotal += unidades * precio;
         }

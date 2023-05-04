@@ -6,6 +6,7 @@
     <h2 style="color: black; text-decoration: underline; margin-bottom: 2rem"> Javascript: Tarea 1<h2>
 </div>
 
+<h4 style="text-align: center; color: black">Agregue el archivo objetos_carrito4.js donde usando cosas no vistas en clase limpamos el codigo de la validacion</h4>
 
 <br>
 <div style="text-align: left; color: black">
@@ -64,7 +65,7 @@
             3.3)Agregar al ejercicio anterior una validación para no permitir duplicados e imprimir un mensaje si el item ya existe “ya existe xxx con yyy unidades”</li>
         <br>
         <br>
-
+    </ul>
 <div style="text-align: center; font-size: 24px">
     <h1 style="text-decoration: underline; color: black;  margin-top: 10rem">Profesores</h1>
 </div>
