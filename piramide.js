@@ -15,5 +15,6 @@ function piramide(numero){
     console.log(fila);
   }
 }
+
 /* Ejemplo utilizado */
 piramide(8);
