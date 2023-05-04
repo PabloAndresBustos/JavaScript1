@@ -19,6 +19,7 @@ function soloIguales(array1, array2){
     return iguales;
 }
 
+
 /* Arrays de prueba */
 array3 = [1,2,3,4,5,10,9,11,6];
 array4 = [1,6,3,9,5,2,1];
