@@ -5,7 +5,7 @@ function soloIguales (array1, array2){
     let array4 = [];
 /* Por medio de un operador ternario comparamos los array y asignamos sus valores */
     array2>array1 ? (array3 = array1,  array4 = array2) :  (array3 = array2,  array4 = array1);
-/* Retornamos la nueva lista con las coicidencias */
+/* Retornamos la nueva lista con las coicidencias. */
     return array3.filter(elemento => array4.includes(elemento));
 } 
   
@@ -13,6 +13,6 @@ function soloIguales (array1, array2){
 let array5 = [1,2,3,4,5,10,9,11,6];
 let array6 = [1,6,3,9,5,2,1];
 
-let igualados = soloIguales(array6, array5);
+let igualados = soloIguales(array5, array6);
 
-console.log(igualados);
+console.log(igualados.sort());
