@@ -37,6 +37,6 @@ let array5 = [1,2,3,4,5,10,9,11,6];
 let array6 = [1,6,3,9,5,2,1];
 
 /* Guardo el resulado de la funcion en igualados para poder ordenar el console.log */
-let igualados = soloIguales(array5, array6);
+let igualados = soloIguales(array6, array5);
 
 console.log(igualados);
